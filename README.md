@@ -1,24 +1,32 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Environment
 
-Things you may want to cover:
+- Ruby 3.0.3
+- Ruby on Rails 6.1.1
+- Mysql 8.0
 
-* Ruby version
+#### Step1 Clone this project
 
-* System dependencies
+bash
+git clone https://github.com/HninSu-Hlaing/Movie_Site.git
 
-* Configuration
 
-* Database creation
+#### Step2 Start development environment
 
-* Database initialization
+bash
 
-* How to run the test suite
+# Node module installation
+bin/yarn install
 
-* Services (job queues, cache servers, search engines, etc.)
+# Database create
+bin/rails db:create
 
-* Deployment instructions
+# Database migrate
+bin/rails db:migrate
 
-* ...
+# Start rails server
+rails server
+
+
+All you have to do is access `http: // localhost: 3000`.
