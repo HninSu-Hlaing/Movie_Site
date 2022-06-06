@@ -3,7 +3,7 @@
 ## Environment
 
 - Ruby 3.0.3
-- Ruby on Rails 6.1.1
+- Ruby on Rails 6.1.6
 - Mysql 8.0
 
 #### Step1 Clone this project
