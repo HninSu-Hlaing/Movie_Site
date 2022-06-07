@@ -8,13 +8,13 @@
 
 #### Step1 Clone this project
 
-bash
+```bash
 git clone https://github.com/HninSu-Hlaing/Movie_Site.git
-
+```
 
 #### Step2 Start development environment
 
-bash
+```bash
 
 # Node module installation
 bin/yarn install
@@ -27,6 +27,6 @@ bin/rails db:migrate
 
 # Start rails server
 rails server
-
+```
 
 All you have to do is access `http: // localhost: 3000`.
